@@ -1,11 +1,13 @@
 #ifndef POWER_MOD_H
 #define POWER_MOD_H
 
-#include <cstdint>
+#include <boost/multiprecision/cpp_int.hpp>
 
 /**
  * @brief Computes base^(power) % mod.
  */
-uint64_t power_mod(uint32_t base, uint64_t power, uint32_t mod);
+boost::multiprecision::cpp_int power_mod(boost::multiprecision::cpp_int base,
+                                         boost::multiprecision::cpp_int power,
+                                         boost::multiprecision::cpp_int mod);
 
 #endif /* POWER_MOD_H */
