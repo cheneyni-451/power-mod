@@ -1,0 +1,4 @@
+.vscode/
+
+# C++ object files
+*.o
