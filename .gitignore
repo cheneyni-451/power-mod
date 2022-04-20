@@ -2,3 +2,6 @@
 
 # C++ object files
 *.o
+
+# Executable
+power_mod
